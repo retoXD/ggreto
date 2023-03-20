@@ -3,7 +3,7 @@ Type: Package
 Title: This package contains a collection of my tools for working with ggplot2.
 Version: 0.1.0
 Author: Reto
-Maintainer: The package maintainer <retosbox@gmail.com>
+Maintainer: <retosbox@gmail.com>
 Description: This package contains a collection of my custom ggplot ttools.
 License: MIT + file LICENSE
 Encoding: UTF-8
