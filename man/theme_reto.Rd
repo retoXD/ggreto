@@ -2,18 +2,20 @@
 % Please edit documentation in R/theme_reto.R
 \name{theme_reto}
 \alias{theme_reto}
-\title{Custom Theme Reto}
+\title{The reto theme}
 \usage{
-theme_reto(base_size = 18, font = "CMU Sans Serif")
+theme_reto(variant = "light", base_size = 18, font = "CMU Sans Serif")
 }
 \arguments{
-\item{base_size}{font size}
+\item{variant}{the theme variant (light, dark)}
 
-\item{font}{font}
+\item{base_size}{the font size}
+
+\item{font}{the font}
 }
 \value{
-plot obj
+a ggplot theme
 }
 \description{
-Custom Theme Reto
+The reto theme
 }
