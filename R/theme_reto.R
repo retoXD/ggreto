@@ -98,7 +98,6 @@ theme_reto_ <- function(base_size,
     )
 }
 
-
 #' The reto theme
 #'
 #' @param variant the theme variant (light, dark)
