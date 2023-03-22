@@ -12,14 +12,12 @@
 #'
 #' @examples
 theme_reto_ <- function(base_size,
-                       font,
-                       background_color,
-                       canvas_primary_color,
-                       canvas_secondary_color,
-                       font_primary_color,
-                       font_secondary_color)  {
-
-# This needs cleanup, also there needs to be a dark and a light theme
+                        font,
+                        background_color,
+                        canvas_primary_color,
+                        canvas_secondary_color,
+                        font_primary_color,
+                        font_secondary_color)  {
   margin_lr <- 0.01
 
   theme_grey() %+replace%
@@ -76,6 +74,13 @@ theme_reto_ <- function(base_size,
 
       panel.spacing.x = unit(1, "lines"),
       panel.spacing.y = unit(9/16, "lines"),
+      panel.grid.major = element_line(
+        colour = canvas_secondary_color
+      ),
+      panel.grid.minor = element_line(
+        colour = canvas_primary_color
+      ),
+
 
       legend.background = element_rect(
         fill   = canvas_primary_color,
